@@ -19,15 +19,9 @@ type Server struct {
 }
 
 func (s *Server) defineRoutes( router *gin.Engine)  {
-
 	apirouter := router.Group("/api")
 	apirouter.POST("/text",s.TextHandler())
 }
-
-
-
-
-
 
 func (s *Server) setupRouter() *gin.Engine  {
 	ginMode := os.Getenv("GIN_MODE")

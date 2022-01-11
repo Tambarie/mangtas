@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "3e54ed42-77ea-4467-bb06-306c2a3a9f73",
+		"name": "Mangtas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "extract_page",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
